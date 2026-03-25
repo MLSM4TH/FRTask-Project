@@ -1,0 +1,62 @@
+# ---------------------------
+# OS / General
+# ---------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.lock
+*.tmp
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (optional – keep if you want shared settings)
+#.vscode/
+
+# ---------------------------
+# Dart / Flutter
+# ---------------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.vs/
+
+# Keep this for apps (IMPORTANT)
+!pubspec.lock
+
+# ---------------------------
+# Build outputs
+# ---------------------------
+build/
+coverage/
+
+# ---------------------------
+# Android
+# ---------------------------
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+
+# ---------------------------
+# iOS
+# ---------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+
+# ---------------------------
+# Misc
+# ---------------------------
+app.*.symbols
+app.*.map.json
